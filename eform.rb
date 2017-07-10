@@ -1,6 +1,5 @@
 require 'sinatra'
 require 'boxr'
-require 'redis'
 
 post '/file-upload' do
     @field2 = params[:field2]
